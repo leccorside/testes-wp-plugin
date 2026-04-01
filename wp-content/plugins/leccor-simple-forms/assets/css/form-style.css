@@ -1,0 +1,169 @@
+.lfs-form-wrapper {
+    max-width: 1000px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.leccor-simple-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lfs-submit-btn {
+  background: #ffcf63;
+  border-color: #ffcf63;
+  color: #000;
+  font-weight: 700;
+  width: 150px;
+}
+
+.lfs-field-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.lfs-field-group label {
+    font-weight: 600;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.lfs-field-group .required {
+    color: #d93025;
+}
+
+.lfs-input {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.lfs-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+.lfs-radio-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 5px;
+}
+
+.lfs-radio-options label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+    line-height: 1.4;
+}
+
+.lfs-radio-options input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.lfs-submit-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.lfs-submit-btn {
+    background: #ffcf63 !important;
+  border-color: #ffcf63 !important;
+  color: #000 !important;   
+  font-weight: 700 !important;
+  width: 150px !important;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.lfs-submit-btn:hover {
+    background-color: #084a72;
+}
+
+.lfs-submit-btn:active {
+    transform: scale(0.98);
+}
+
+.lfs-submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.lfs-message {
+    padding: 15px;
+    border-radius: 6px;
+    display: none;
+    font-weight: 500;
+}
+
+.lfs-message.success {
+    display: block;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.lfs-message.error {
+    display: block;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.lfs-loader {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* intl-tel-input integration tweak */
+.iti { 
+    width: 100%; 
+}
+
+/* Remover padding fixo que causava sobreposição */
+.lfs-whatsapp { 
+    width: 100% !important;
+}
+
+.lfs-radio-other-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lfs-input-other {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .lfs-form-wrapper {
+        padding: 20px;
+    }
+}

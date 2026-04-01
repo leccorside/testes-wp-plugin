@@ -1,0 +1,58 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+html/wp-content/debug.log
+
+# WordPress
+# html/wp-content/uploads/
+# html/wp-content/upgrade/
+# html/wp-content/cache/
+# html/wp-content/backup-db/
+# html/wp-config.php
+
+# Docker
+docker-compose.override.yml
+.docker/
+*data/
+*mysql/
+*db/
+
+# OS / Editor
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node / JS
+node_modules/
+dist/
+
+# Python / Scripts
+__pycache__/
+*.pyc
+
+# Agents
+*.agent
+*.claude
