@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
         
         // Inicializar intl-tel-input
         var iti = window.intlTelInput($whatsappInput, {
-            initialCountry: "br",
+            initialCountry: "us",
             separateDialCode: true,
             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js"
         });
