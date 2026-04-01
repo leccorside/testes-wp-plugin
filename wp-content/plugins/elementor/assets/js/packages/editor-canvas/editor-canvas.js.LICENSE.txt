@@ -183,6 +183,8 @@
 
 /*! ./transformers/shared/plain-transformer */
 
+/*! ./transformers/shared/svg-src-transformer */
+
 /*! ./transformers/shared/video-src-transformer */
 
 /*! ./transformers/styles/background-color-overlay-transformer */
@@ -295,7 +297,11 @@
 
 /*! @floating-ui/utils/dom */
 
+/*! @license DOMPurify 3.3.0 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/3.3.0/LICENSE */
+
 /*! @wordpress/i18n */
+
+/*! dompurify */
 
 /*! react */
 
@@ -378,6 +384,10 @@
 /*!**************************************************!*\
   !*** external ["elementorV2","editorDocuments"] ***!
   \**************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/dompurify/dist/purify.es.mjs ***!
+  \***************************************************/
 
 /*!***************************************************!*\
   !*** external ["elementorV2","editorResponsive"] ***!
@@ -693,6 +703,10 @@
 
 /*!*********************************************************************************************!*\
   !*** ./packages/packages/core/editor-canvas/src/transformers/settings/query-transformer.ts ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./packages/packages/core/editor-canvas/src/transformers/shared/svg-src-transformer.ts ***!
   \*********************************************************************************************/
 
 /*!**********************************************************************************************!*\

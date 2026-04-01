@@ -1133,6 +1133,14 @@ function createAtomicElementBaseView(type) {
     template: Marionette.TemplateCache.get("#tmpl-elementor-".concat(type, "-content")),
     emptyView: _atomicElementEmptyView.default,
     _childrenRenderPromises: [],
+    _createElement: function _createElement(tag) {
+      var _elementor$$preview;
+      var previewDocument = (_elementor$$preview = elementor.$preview) === null || _elementor$$preview === void 0 || (_elementor$$preview = _elementor$$preview[0]) === null || _elementor$$preview === void 0 ? void 0 : _elementor$$preview.contentDocument;
+      if (previewDocument) {
+        return previewDocument.createElement(tag);
+      }
+      return document.createElement(tag);
+    },
     tagName: function tagName() {
       var _resolvedTagCache$get;
       return (_resolvedTagCache$get = resolvedTagCache.get(this.model)) !== null && _resolvedTagCache$get !== void 0 ? _resolvedTagCache$get : this._resolveTag();
